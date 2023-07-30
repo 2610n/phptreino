@@ -6,6 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    logado
+           <table>
+              <tr>
+                  <th>Id</th>
+                  <th>Usuario</th>
+                  <th>Senha</th>
+
+              </tr>
+
+              <?php
+                require_once "listar.php";
+              ?>
+
+           </table>
+
+
 </body>
 </html>
