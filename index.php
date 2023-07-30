@@ -6,7 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    
+      
+      <?php
+      session_start();
+        if(isset($_SESSION["Error"])){
+           echo $_SESSION["Error"];
+           session_unset();
+        
+        }
+      
+      ?>    
+<br><br>
      <form action="logar.php" method="post">
 
 
