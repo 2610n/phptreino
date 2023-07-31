@@ -11,6 +11,7 @@
                   <th>Id</th>
                   <th>Usuario</th>
                   <th>Senha</th>
+                  <th>Função</th>
 
               </tr>
 

@@ -14,6 +14,7 @@ while($result = mysqli_fetch_array($executar)){
         <td>$id</td>
         <td>$usu</td>
         <td>$senha</td>
+        <td><a href='excluir_usu.php?idUsu=$id'>Excluir</a></td>
     
     
     </tr>";
